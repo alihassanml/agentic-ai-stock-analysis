@@ -34,21 +34,15 @@ multi_AI_Agent = Agent(
     team=[web_Search_agent, finance_agent],
     model=Groq(id='deepseek-r1-distill-llama-70b', api_key=groq_api),
     instructions=[
-        "Provide well-structured and concise responses.",
-        "Always include the original data source for transparency.",
-        "Use a well-formatted table for numerical and financial data.",
-        "Summarize key insights in bullet points for better readability.",
-        "Highlight important trends, anomalies, and patterns.",
-        "Ensure accuracy when presenting stock prices, financial reports, or news.",
-        "For news updates, focus on the latest and most relevant information.",
+        "For news updates, focus on the latest and most relevant information. and provide more detaile",
     ],
     show_tool_calls=True,
     markdown=True,
 )
 
-multi_AI_Agent.print_response("Summarize analyst recommendation and share the latest news of Apple")
+multi_AI_Agent.print_response("Give me latest new about development etehereum network")
 
-# Create FastAPI Playground App
+Create FastAPI Playground App
 from phi.playground import Playground, serve_playground_app
 
 app = Playground(agents=[multi_AI_Agent]).get_app()
