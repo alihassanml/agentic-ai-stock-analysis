@@ -1,7 +1,5 @@
 # Agentic AI Stock Analysis
 
-![Agentic AI Stock Analysis](https://your-image-url.com/banner.png)
-
 ## 🚀 Overview
 Agentic AI Stock Analysis is an AI-powered multi-agent system that analyzes stock market trends, provides analyst recommendations, and fetches the latest news using Groq AI models. It integrates financial and web search agents to deliver real-time insights.
 
