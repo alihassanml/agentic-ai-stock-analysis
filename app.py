@@ -6,7 +6,7 @@ from phi.tools.duckduckgo import DuckDuckGo
 from phi.playground import playground, serve_playground_app
 
 # Set Groq API key
-groq_api = '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'
+groq_api = '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'
 
 # Define Web Search Agent
 web_Search_agent = Agent(
@@ -42,7 +42,6 @@ multi_AI_Agent = Agent(
 
 multi_AI_Agent.print_response("Give me latest new about development etehereum network")
 
-Create FastAPI Playground App
 from phi.playground import Playground, serve_playground_app
 
 app = Playground(agents=[multi_AI_Agent]).get_app()

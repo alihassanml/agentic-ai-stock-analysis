@@ -1,2 +1,6 @@
 phidata
 duckduckgo-search
+yfinance
+phi 
+fastapi 
+uvicorn
